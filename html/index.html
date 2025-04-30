@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/d1ead16d40.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>CAteriNgz</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div><a href="/html/aboutus.html">About Us</a></div>
+      <div><a href="/html/testi.html">Testimonial</a></div>
+      <div class="logo">
+        <a href="/html/index.html"
+          ><img src="/assets/photo/Logo Website HCI.png" class="logo-navbar"
+        /></a>
+      </div>
+      <div><a href="/html/product.html">Products</a></div>
+      <div><a href="/html/register.html">Register</a></div>
+    </nav>
+
+    <section class="welcome">
+      <h1 class="title">Welcome to CAteriNgz ...</h1>
+      <div class="box">
+        <div>
+          <button class="icon" onclick="moveCarousel('prev')">
+            <i class="fa-solid fa-circle-chevron-left"></i>
+          </button>
+        </div>
+        <div class="carousel">
+          <div class="carousel-container">
+            <div class="carousel-item">
+              <img
+                class="pict-main"
+                src="/assets/photo/Kimchi.jpg"
+                alt="image"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="pict-main"
+                src="/assets/photo/Indomie.jpg"
+                alt="image"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="pict-main"
+                src="/assets/photo/Jepang.jpg"
+                alt="image"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <button class="icon" onclick="moveCarousel('next')">
+            <i class="fa-solid fa-circle-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="recom">
+      <h1 class="title">Recommendation</h1>
+      <div class="product-container">
+        <div class="data">
+          <img src="/assets/photo/bento.jpg" class="recom-pict" />
+          <div class="desc">
+            <h1 class="desc-name">Bento Set Box</h1>
+            <p class="price">Rp 55.000</p>
+            <div class="rate">
+              <img src="/assets/photo/star icon.png" class="star" />
+              <p class="rate-text">4.9 / 5.0</p>
+              <p class="sold">853+ Sold</p>
+            </div>
+          </div>
+        </div>
+        <div class="data">
+          <img src="/assets/photo/naskun.jpg" class="recom-pict" />
+          <div class="desc">
+            <h1 class="desc-name">Nasi Kuning</h1>
+            <p class="price">Rp 35.000</p>
+            <div class="rate">
+              <img src="/assets/photo/star icon.png" class="star" />
+              <p class="rate-text">4.3 / 5.0</p>
+              <p class="sold">748+ Sold</p>
+            </div>
+          </div>
+        </div>
+        <div class="data">
+          <img src="/assets/photo/java.jpg" class="recom-pict" />
+          <div class="desc">
+            <h1 class="desc-name">Java Lunch Box</h1>
+            <p class="price">Rp 32.000</p>
+            <div class="rate">
+              <img src="/assets/photo/star icon.png" class="star" />
+              <p class="rate-text">4.7 / 5.0</p>
+              <p class="sold">1214+ Sold</p>
+            </div>
+          </div>
+        </div>
+        <div class="data">
+          <img
+            src="/assets/photo/Dosirak (Korean Lunchbox) -.jpg"
+            class="recom-pict"
+          />
+          <div class="desc">
+            <h1 class="desc-name">Dosirak (Korean Lunchbox)</h1>
+            <p class="price">Rp 50.000</p>
+            <div class="rate">
+              <img src="/assets/photo/star icon.png" class="star" />
+              <p class="rate-text">4.4 / 5.0</p>
+              <p class="sold">928+ Sold</p>
+            </div>
+          </div>
+        </div>
+        <div class="data">
+          <img src="/assets/photo/nasduk.jpg" class="recom-pict" />
+          <div class="desc">
+            <h1 class="desc-name">Nasi Uduk (Complete)</h1>
+            <p class="price">Rp 45.000</p>
+            <div class="rate">
+              <img src="/assets/photo/star icon.png" class="star" />
+              <p class="rate-text">4.7 / 5.0</p>
+              <p class="sold">543+ Sold</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo">
+      <h1 class="title">Promo</h1>
+      <div class="promo-container">
+        <div class="promo-card">
+          <div>
+            <img src="/assets/photo/bca logo.png" class="promo-logo" />
+          </div>
+          <div class="promo-text">
+            <div class="promo-highlights">Discount 7% Using BCA</div>
+            <div class="promo-terms">*Terms and Condition applied</div>
+          </div>
+        </div>
+        <div class="promo-card">
+          <div>
+            <img src="/assets/photo/mastercard logo.png" class="promo-logo" />
+          </div>
+          <div class="promo-text">
+            <div class="promo-highlights">Discount 7% Using BCA</div>
+            <div class="promo-terms">*Terms and Condition applied</div>
+          </div>
+        </div>
+        <div class="promo-card">
+          <div>
+            <img src="/assets/photo/Logo Website HCI.png" class="promo-logo" />
+          </div>
+          <div class="promo-text">
+            <div class="promo-highlights">Discount 7% Using BCA</div>
+            <div class="promo-terms">*Terms and Condition applied</div>
+          </div>
+        </div>
+        <div class="promo-card">
+          <div>
+            <img src="/assets/photo/gopay logo.png" class="promo-logo" />
+          </div>
+          <div class="promo-text">
+            <div class="promo-highlights">Discount 7% Using BCA</div>
+            <div class="promo-terms">*Terms and Condition applied</div>
+          </div>
+        </div>
+        <div class="promo-card">
+          <div>
+            <img src="/assets/photo/ovo logo.png" class="promo-logo" />
+          </div>
+          <div class="promo-text">
+            <div class="promo-highlights">Discount 7% Using BCA</div>
+            <div class="promo-terms">*Terms and Condition applied</div>
+          </div>
+        </div>
+        <div class="promo-card">
+          <div>
+            <img src="/assets/photo/mega logo.png" class="promo-logo" />
+          </div>
+          <div class="promo-text">
+            <div class="promo-highlights">Discount 7% Using BCA</div>
+            <div class="promo-terms">*Terms and Condition applied</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info">
+      <h1 class="title">Information</h1>
+      <div class="title-container">
+        <img src="/assets/photo/Logo Website HCI.png" class="info-pict" />
+        <div class="info-text">
+          CAteriNgz is a premier homemade culinary service that has become a
+          favorite for exceptional food at events in Jakarta, Bandung, and
+          Malang. Starting from a small kitchen, CAteriNgz is now renowned for
+          crafting delicious and memorable experiences for all types of
+          gatherings.
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="logo">
+        <img src="/assets/photo/Logo Website HCI.png" class="logo" />
+      </div>
+      <div class="contact">
+        <div class="contact-title">Contact Us</div>
+        <div class="detail">
+          <img src="/assets/photo/email icon.png" class="icon" />
+          <p class="text">cateringz88@gmail.com</p>
+        </div>
+        <div class="detail">
+          <img src="/assets/photo/phone icon.png" class="icon" />
+          <p class="text">+62 812-3456-789</p>
+        </div>
+        <div class="detail">
+          <img src="/assets/photo/location icon.png" class="icon" />
+          <p class="text">Jakarta, Indonesia</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/index.js"></script>
+  </body>
+</html>

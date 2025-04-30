@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div><a href="/html/aboutus.html">About Us</a></div>
+      <div><a href="/html/testi.html">Testimonial</a></div>
+      <div class="logo">
+        <a href="/html/index.html"
+          ><img src="/assets/photo/Logo Website HCI.png" class="logo-navbar"
+        /></a>
+      </div>
+      <div><a href="/html/product.html">Products</a></div>
+      <div><a href="/html/register.html">Register</a></div>
+    </nav>
+
+    <form class="register" id="form">
+      <h1 class="title-regis">Register</h1>
+      <div class="regis-container">
+        <div class="regis-input">
+          <div class="regis-text">Name :</div>
+          <div class="regis-column">
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Enter your name here (Must be between 5-10 Characters)"
+              class="regis-box"
+            />
+            <div class="error"></div>
+          </div>
+        </div>
+        <div class="regis-input">
+          <div class="regis-text">Email :</div>
+          <div class="regis-column">
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Enter your email here (Must be @binus.ac.id)"
+              class="regis-box"
+            />
+            <div class="error"></div>
+          </div>
+        </div>
+        <div class="regis-input2">
+          <div class="regis-text">Address :</div>
+          <div class="regis-column">
+            <textarea
+              name="address"
+              id="address"
+              class="regis-box2"
+              placeholder="Enter your address here, ex. Anggrek Street No. 27"
+            ></textarea>
+            <div class="error"></div>
+          </div>
+        </div>
+        <div class="regis-radio">
+          <div class="regis-text2">Gender :</div>
+          <div class="regis-column">
+            <div class="regis-radio-container">
+              <div class="regis-radio-text">
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label>
+              </div>
+              <div class="regis-radio-text">
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label>
+              </div>
+            </div>
+            <div class="error"></div>
+          </div>
+        </div>
+        <div class="regis-dob">
+          <div class="regis-dob-text">Date of Birth :</div>
+          <div class="regis-column">
+            <input type="date" id="date" name="date" class="regis-date-box" />
+            <div class="error"></div>
+          </div>
+        </div>
+        <div class="regis-input">
+          <div class="regis-text">Password :</div>
+          <div class="regis-column">
+            <input
+              type="password"
+              id="pass"
+              name="pass"
+              placeholder="Enter your password here"
+              class="regis-pass-box"
+            />
+            <div class="error"></div>
+          </div>
+        </div>
+        <div class="regis-input">
+          <div class="regis-text">Confirm Password :</div>
+          <div class="regis-column">
+            <input
+              type="password"
+              id="confirm-pass"
+              name="confirm-pass"
+              placeholder="Confirm your password here"
+              class="regis-pass-box"
+            />
+            <div class="error"></div>
+          </div>
+        </div>
+        <div class="regis-checkbox">
+          <input type="checkbox" id="check" />
+          <div class="regis-column-text">
+            <label for="check" class="regis-text">You agree to the </label>
+            <a href=""> terms of use</a>
+            <p class="regis-text3">and acknowledge</p>
+            <a href="">the privacy policy.</a>
+          </div>
+        </div>
+        <div class="regis-submit">
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+
+    <footer>
+      <div class="logo">
+        <img src="/assets/photo/Logo Website HCI.png" class="logo" />
+      </div>
+      <div class="contact">
+        <div class="contact-title">Contact Us</div>
+        <div class="detail">
+          <img src="/assets/photo/email icon.png" class="icon" />
+          <p class="text">cateringz88@gmail.com</p>
+        </div>
+        <div class="detail">
+          <img src="/assets/photo/phone icon.png" class="icon" />
+          <p class="text">+62 812-3456-789</p>
+        </div>
+        <div class="detail">
+          <img src="/assets/photo/location icon.png" class="icon" />
+          <p class="text">Jakarta, Indonesia</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/register.js"></script>
+  </body>
+</html>
